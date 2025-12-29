@@ -1,0 +1,28 @@
+{
+  "name": "toys",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:gleam && npm run test:node",
+    "test:gleam": "gleam test",
+    "test:node": "vitest --run",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gleam-tools/ts": "^0.0.4",
+    "@gleam-tools/vite": "^0.0.3",
+    "@tailwindcss/vite": "^4.1.18",
+    "preact": "^10.27.2",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@types/node": "^24.10.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.16"
+  }
+}
